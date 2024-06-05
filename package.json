@@ -1,6 +1,6 @@
 {
   "name": "@nxfi/ton-opcode",
-  "version": "0.0.14",
+  "version": "0.0.15-0",
   "main": "dist/index.js",
   "repository": "https://github.com/nx-fi/ton-opcode.git",
   "author": "Steve Korshakov <steve@korshakov.com>",
