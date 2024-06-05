@@ -711,3 +711,11 @@ opcodes:
   # A.13 Codepage primitives
   SETCP: ["int"]
   SETCPX:
+
+  # TVM Upgrade 2023.07
+  # Opcodes to work with new c7 values
+  # STORAGEFEES:
+  # Gas
+  GASCONSUMED:
+  # Crypto
+  ECRECOVER:

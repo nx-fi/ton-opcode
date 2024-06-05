@@ -609,6 +609,8 @@ export type OpCodeNoArgs =
     | { code: 'SETCODE' }
     | { code: 'SETLIBCODE' }
     | { code: 'CHANGELIB' }
-    | { code: 'SETCPX' };
+    | { code: 'SETCPX' }
+    | { code: 'GASCONSUMED' }
+    | { code: 'ECRECOVER' };
 
 export type OpCode = OpCodeWithArgs | OpCodeNoArgs;

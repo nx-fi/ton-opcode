@@ -1109,6 +1109,7 @@ CP0Auto.insertHex('f4bc', 14, (slice) => {
 // 16039936 (DUMMY)
 CP0Auto.insertHex('f800', 16, { code: 'ACCEPT' });
 CP0Auto.insertHex('f801', 16, { code: 'SETGASLIMIT' });
+CP0Auto.insertHex('F807', 16, { code: 'GASCONSUMED' });
 // 16253440 (DUMMY)
 CP0Auto.insertHex('f80f', 16, { code: 'COMMIT' });
 CP0Auto.insertHex('f810', 16, { code: 'RANDU256' });
@@ -1135,6 +1136,7 @@ CP0Auto.insertHex('f901', 16, { code: 'HASHSU' });
 CP0Auto.insertHex('f902', 16, { code: 'SHA256U' });
 CP0Auto.insertHex('f910', 16, { code: 'CHKSIGNU' });
 CP0Auto.insertHex('f911', 16, { code: 'CHKSIGNS' });
+CP0Auto.insertHex('F912', 16, { code: 'ECRECOVER' });
 CP0Auto.insertHex('f940', 16, { code: 'CDATASIZEQ' });
 CP0Auto.insertHex('f941', 16, { code: 'CDATASIZE' });
 CP0Auto.insertHex('f942', 16, { code: 'SDATASIZEQ' });

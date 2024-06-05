@@ -1,8 +1,8 @@
 {
-  "name": "@tact-lang/opcode",
+  "name": "@nxfi/ton-opcode",
   "version": "0.0.14",
   "main": "dist/index.js",
-  "repository": "https://github.com/tact-lang/ton-opcode.git",
+  "repository": "https://github.com/nx-fi/ton-opcode.git",
   "author": "Steve Korshakov <steve@korshakov.com>",
   "license": "MIT",
   "scripts": {
